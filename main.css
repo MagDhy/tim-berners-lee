@@ -1,0 +1,217 @@
+@font-face  {
+    font-family: 'Montserrat-ExtraBold';
+    src: url(Montserrat-ExtraBold.otf);
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #7D7D7D;
+    background-color: #EBEBEB;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 200%;
+}
+
+
+header {
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgb(197, 195, 195);
+}
+header img {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: rgb(179, 181, 184);
+    margin-top: 5%;
+}
+header h1 {
+    color: #DD5555;
+    font-weight: 900;
+    font-family: 'Montserrat-ExtraBold';
+}
+header p {
+    padding: 5%;
+    text-align: justify;
+    margin-bottom: -3%;
+}
+header button {
+    background-color:  #DD5555;
+    border-radius: 12px;
+    border-style: solid;
+    color: white;
+    padding: 15px;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: large;
+}
+header strong {
+    font-family: 'Montserrat-ExtraBold';
+}
+
+
+aside {
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgb(197, 195, 195);
+}
+aside ul {
+    display: flex;
+    flex-direction: row;
+    padding-inline-end: 15%;
+    padding-inline-start: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+aside li {
+    padding: 10% 5% 10% 5%;
+    list-style: none;
+    text-align: center;
+}
+aside i {
+    color: rgb(179, 181, 184);
+    padding-bottom: 5%;
+}
+aside a {
+    text-decoration: none;
+    color: rgb(179, 181, 184);
+    text-align: center;
+}
+
+
+section {
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgb(197, 195, 195);
+    
+}
+section strong {
+    background-color: rgb(179, 181, 184);
+}
+section h2 {
+    text-align: center;
+
+}
+
+#odyssey {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, auto, 1fr;
+    grid-column-gap: 3%;
+    width: 100%;
+    height: 75%;
+    margin-left: 0%;
+}   
+#odyssey img {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: relative;
+    padding: 5% 5% 10% 5%;
+    margin: 0% 5% 20% 10%;
+    width: 150px;
+    height: 250px;
+}
+#odyssey h3 {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 5% 3% 0% 3%;
+    margin: 10% 10% 1% 5%;
+    text-align: center;
+    position: relative;
+}
+#odyssey p {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+    padding: 1% 3% 5% 5%;
+    margin: 1% 10% 5% 5%;
+    text-align: justify;
+    vertical-align: baseline;
+    position: relative;
+}
+
+#mhulot {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, auto, 1fr;
+    grid-column-gap: 3%;
+    width: 100%;
+    height: 75%;
+    margin-left: 0%;
+}
+#mhulot img{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: relative;
+    padding: 5% 5% 10% 5%;
+    margin: 0% 5% 20% 10%;
+    width: 150px;
+    height: 250px;
+}
+#mhulot h3 {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 5% 3% 0% 3%;
+    margin: 10% 10% 1% 5%;
+    text-align: center;
+    position: relative;
+}
+#mhulot p {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+    padding: 1% 3% 5% 5%;
+    margin: 1% 10% 5% 5%;
+    text-align: justify;
+    vertical-align: baseline;
+    position: relative;
+}
+
+#alien {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, auto, 1fr;
+    grid-column-gap: 3%;
+    width: 100%;
+    height: 75%;
+    margin-left: 0%;
+}
+#alien img {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: relative;
+    padding: 5% 5% 10% 5%;
+    margin: 0% 5% 20% 10%;
+    width: 150px;
+    height: 250px;
+}
+#alien h3 {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 5% 3% 0% 3%;
+    margin: 10% 10% 1% 5%;
+    text-align: center;
+    position: relative;
+}
+#alien p {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+    padding: 1% 3% 5% 5%;
+    margin: 1% 10% 5% 5%;
+    text-align: justify;
+    vertical-align: baseline;
+    position: relative;
+}
