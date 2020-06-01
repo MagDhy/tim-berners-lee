@@ -52,6 +52,10 @@ header button {
     font-weight: bold;
     font-size: large;
 }
+header button a {
+    text-decoration: none;
+    color: white;
+}
 header strong {
     font-family: 'Montserrat-ExtraBold';
 }

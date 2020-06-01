@@ -1,4 +1,4 @@
-# tim-berners-lee
+# Tim-berners-lee
 
 Faire un one-pager sur Tim Berners-Lee un des inventeurs du Web.
 
@@ -12,7 +12,8 @@ Les difficultées que j'ai rencontrées sont : tout d'abord le gras du titre que
 Enfin j'ai eu du mal à faire les box-shadows de la section car j'avais fait des sous-sections et donc les ombres s'appliquaient aussi au sous-sections que j'ai résolu en remplaçant mes balises de sous-sections par des balises articles.
 
 ## Versioning
-Je n'ai qu'une version du travail car je ne l'ai placé que le dernier jour.
+
+Version 2.0 ajout d'un lien sur le bouton.
 
 ## Auteur
 
